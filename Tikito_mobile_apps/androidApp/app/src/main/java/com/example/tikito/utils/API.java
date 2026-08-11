@@ -1,7 +1,3 @@
-
-
-
-
 package com.example.tikito.utils;
 
 import android.content.Context;
@@ -22,7 +18,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class API {
 
     private static API api;
-    public static final String URL = "http://192.168.1.101/";
+    public static final String URL = "https://tikito.onrender.com/";;
     private final EventAPI eventAPI;
     private final VenueAPI venueAPI;
     private final ShowAPI showAPI;

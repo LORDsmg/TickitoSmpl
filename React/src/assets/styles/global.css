@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Tailwind already resets margin and padding. Defining them here overrides
+   Tailwind's spacing utilities because this CSS is outside its layers. */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root{
+    width:100%;
+    min-height:100vh;
+    background:#0D0D0D;
+    color:white;
+    font-family:Inter,sans-serif;
+}
+
+body{
+    overflow-x:hidden;
+}

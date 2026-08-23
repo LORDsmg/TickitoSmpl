@@ -34,7 +34,7 @@ const cards = [
     color: "bg-pink-600",
   },
   {
-    title: "Today's Bookings",
+    title: "Today's Booking",
     value: "835",
     icon: <FaTicketAlt />,
     color: "bg-orange-600",
